@@ -1,0 +1,6 @@
+# Training/test datasets & temporary artifacts
+train.csv
+test.csv
+catboost_info/
+__pycache__/
+.ipynb_checkpoints/
