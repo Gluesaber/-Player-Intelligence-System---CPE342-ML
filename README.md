@@ -9,4 +9,5 @@ Repository for CPE342 Machine Learning (1/2026) — KMUTT.
   - `task2.ipynb` — EDA, player_id leak audit, Feature Engineering, from-scratch Naive Bayes vs 6 tuned models, SMOTE/stacking/blend tests, ceiling analysis & final prediction (`5-Fold Macro F1 = 0.7574`)
 - `task3/` — Monthly Spending Prediction
 - `task4/` — Game Title Detection
-- `task5/` — Account Security Monitoring
+- `task5/` — Account Security Monitoring (Unsupervised Anomaly Detection, Metric: Macro F3)
+  - `task5.ipynb` — EDA (missing/noise by period), temporal robust-z for sudden late-period changes (type A) + histogram-gap detection on account-level behavior incl. a bot group (type B), cross-checked with PCA / HBOS / Mahalanobis / One-Class SVM / Autoencoder, flags top 8% (`type A + B = 1,811 accounts, 7.0%`)
